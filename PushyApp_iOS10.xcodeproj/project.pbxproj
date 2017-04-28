@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B4531971EB3B8BD0069495E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4531961EB3B8BD0069495E /* main.m */; };
+		8B45319A1EB3B8BD0069495E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4531991EB3B8BD0069495E /* AppDelegate.m */; };
+		8B45319D1EB3B8BD0069495E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B45319C1EB3B8BD0069495E /* ViewController.m */; };
+		8B4531A01EB3B8BD0069495E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B45319E1EB3B8BD0069495E /* Main.storyboard */; };
+		8B4531A21EB3B8BD0069495E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4531A11EB3B8BD0069495E /* Assets.xcassets */; };
+		8B4531A51EB3B8BD0069495E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4531A31EB3B8BD0069495E /* LaunchScreen.storyboard */; };
+		8B4531B01EB3B8BE0069495E /* PushyApp_iOS10Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4531AF1EB3B8BE0069495E /* PushyApp_iOS10Tests.m */; };
+		8B4531BB1EB3B8BE0069495E /* PushyApp_iOS10UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4531BA1EB3B8BE0069495E /* PushyApp_iOS10UITests.m */; };
+		8B4531CB1EB3B8CD0069495E /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4531C91EB3B8CD0069495E /* UserNotifications.framework */; };
+		8B4531CC1EB3B8CD0069495E /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4531CA1EB3B8CD0069495E /* UserNotificationsUI.framework */; };
+		8B4531CE1EB3B98B0069495E /* ReadME.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B4531CD1EB3B98B0069495E /* ReadME.rtf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B4531AC1EB3B8BE0069495E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B45318A1EB3B8BD0069495E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B4531911EB3B8BD0069495E;
+			remoteInfo = PushyApp_iOS10;
+		};
+		8B4531B71EB3B8BE0069495E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B45318A1EB3B8BD0069495E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B4531911EB3B8BD0069495E;
+			remoteInfo = PushyApp_iOS10;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B4531921EB3B8BD0069495E /* PushyApp_iOS10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushyApp_iOS10.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4531961EB3B8BD0069495E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B4531981EB3B8BD0069495E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B4531991EB3B8BD0069495E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B45319B1EB3B8BD0069495E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B45319C1EB3B8BD0069495E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B45319F1EB3B8BD0069495E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B4531A11EB3B8BD0069495E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B4531A41EB3B8BD0069495E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B4531A61EB3B8BD0069495E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B4531AB1EB3B8BE0069495E /* PushyApp_iOS10Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushyApp_iOS10Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4531AF1EB3B8BE0069495E /* PushyApp_iOS10Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushyApp_iOS10Tests.m; sourceTree = "<group>"; };
+		8B4531B11EB3B8BE0069495E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B4531B61EB3B8BE0069495E /* PushyApp_iOS10UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushyApp_iOS10UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4531BA1EB3B8BE0069495E /* PushyApp_iOS10UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushyApp_iOS10UITests.m; sourceTree = "<group>"; };
+		8B4531BC1EB3B8BE0069495E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B4531C91EB3B8CD0069495E /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		8B4531CA1EB3B8CD0069495E /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		8B4531CD1EB3B98B0069495E /* ReadME.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = ReadME.rtf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B45318F1EB3B8BD0069495E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4531CB1EB3B8CD0069495E /* UserNotifications.framework in Frameworks */,
+				8B4531CC1EB3B8CD0069495E /* UserNotificationsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4531A81EB3B8BE0069495E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4531B31EB3B8BE0069495E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B4531891EB3B8BD0069495E = {
+			isa = PBXGroup;
+			children = (
+				8B4531941EB3B8BD0069495E /* PushyApp_iOS10 */,
+				8B4531AE1EB3B8BE0069495E /* PushyApp_iOS10Tests */,
+				8B4531B91EB3B8BE0069495E /* PushyApp_iOS10UITests */,
+				8B4531931EB3B8BD0069495E /* Products */,
+				8B4531C81EB3B8CC0069495E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B4531931EB3B8BD0069495E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B4531921EB3B8BD0069495E /* PushyApp_iOS10.app */,
+				8B4531AB1EB3B8BE0069495E /* PushyApp_iOS10Tests.xctest */,
+				8B4531B61EB3B8BE0069495E /* PushyApp_iOS10UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B4531941EB3B8BD0069495E /* PushyApp_iOS10 */ = {
+			isa = PBXGroup;
+			children = (
+				8B4531CD1EB3B98B0069495E /* ReadME.rtf */,
+				8B4531981EB3B8BD0069495E /* AppDelegate.h */,
+				8B4531991EB3B8BD0069495E /* AppDelegate.m */,
+				8B45319B1EB3B8BD0069495E /* ViewController.h */,
+				8B45319C1EB3B8BD0069495E /* ViewController.m */,
+				8B45319E1EB3B8BD0069495E /* Main.storyboard */,
+				8B4531A11EB3B8BD0069495E /* Assets.xcassets */,
+				8B4531A31EB3B8BD0069495E /* LaunchScreen.storyboard */,
+				8B4531A61EB3B8BD0069495E /* Info.plist */,
+				8B4531951EB3B8BD0069495E /* Supporting Files */,
+			);
+			path = PushyApp_iOS10;
+			sourceTree = "<group>";
+		};
+		8B4531951EB3B8BD0069495E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B4531961EB3B8BD0069495E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B4531AE1EB3B8BE0069495E /* PushyApp_iOS10Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8B4531AF1EB3B8BE0069495E /* PushyApp_iOS10Tests.m */,
+				8B4531B11EB3B8BE0069495E /* Info.plist */,
+			);
+			path = PushyApp_iOS10Tests;
+			sourceTree = "<group>";
+		};
+		8B4531B91EB3B8BE0069495E /* PushyApp_iOS10UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B4531BA1EB3B8BE0069495E /* PushyApp_iOS10UITests.m */,
+				8B4531BC1EB3B8BE0069495E /* Info.plist */,
+			);
+			path = PushyApp_iOS10UITests;
+			sourceTree = "<group>";
+		};
+		8B4531C81EB3B8CC0069495E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B4531C91EB3B8CD0069495E /* UserNotifications.framework */,
+				8B4531CA1EB3B8CD0069495E /* UserNotificationsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B4531911EB3B8BD0069495E /* PushyApp_iOS10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4531BF1EB3B8BE0069495E /* Build configuration list for PBXNativeTarget "PushyApp_iOS10" */;
+			buildPhases = (
+				8B45318E1EB3B8BD0069495E /* Sources */,
+				8B45318F1EB3B8BD0069495E /* Frameworks */,
+				8B4531901EB3B8BD0069495E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushyApp_iOS10;
+			productName = PushyApp_iOS10;
+			productReference = 8B4531921EB3B8BD0069495E /* PushyApp_iOS10.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B4531AA1EB3B8BE0069495E /* PushyApp_iOS10Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4531C21EB3B8BE0069495E /* Build configuration list for PBXNativeTarget "PushyApp_iOS10Tests" */;
+			buildPhases = (
+				8B4531A71EB3B8BE0069495E /* Sources */,
+				8B4531A81EB3B8BE0069495E /* Frameworks */,
+				8B4531A91EB3B8BE0069495E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B4531AD1EB3B8BE0069495E /* PBXTargetDependency */,
+			);
+			name = PushyApp_iOS10Tests;
+			productName = PushyApp_iOS10Tests;
+			productReference = 8B4531AB1EB3B8BE0069495E /* PushyApp_iOS10Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B4531B51EB3B8BE0069495E /* PushyApp_iOS10UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4531C51EB3B8BE0069495E /* Build configuration list for PBXNativeTarget "PushyApp_iOS10UITests" */;
+			buildPhases = (
+				8B4531B21EB3B8BE0069495E /* Sources */,
+				8B4531B31EB3B8BE0069495E /* Frameworks */,
+				8B4531B41EB3B8BE0069495E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B4531B81EB3B8BE0069495E /* PBXTargetDependency */,
+			);
+			name = PushyApp_iOS10UITests;
+			productName = PushyApp_iOS10UITests;
+			productReference = 8B4531B61EB3B8BE0069495E /* PushyApp_iOS10UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B45318A1EB3B8BD0069495E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Coursera Networking and Security in iOS Applications";
+				TargetAttributes = {
+					8B4531911EB3B8BD0069495E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					8B4531AA1EB3B8BE0069495E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B4531911EB3B8BD0069495E;
+					};
+					8B4531B51EB3B8BE0069495E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B4531911EB3B8BD0069495E;
+					};
+				};
+			};
+			buildConfigurationList = 8B45318D1EB3B8BD0069495E /* Build configuration list for PBXProject "PushyApp_iOS10" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B4531891EB3B8BD0069495E;
+			productRefGroup = 8B4531931EB3B8BD0069495E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B4531911EB3B8BD0069495E /* PushyApp_iOS10 */,
+				8B4531AA1EB3B8BE0069495E /* PushyApp_iOS10Tests */,
+				8B4531B51EB3B8BE0069495E /* PushyApp_iOS10UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B4531901EB3B8BD0069495E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4531A51EB3B8BD0069495E /* LaunchScreen.storyboard in Resources */,
+				8B4531A21EB3B8BD0069495E /* Assets.xcassets in Resources */,
+				8B4531CE1EB3B98B0069495E /* ReadME.rtf in Resources */,
+				8B4531A01EB3B8BD0069495E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4531A91EB3B8BE0069495E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4531B41EB3B8BE0069495E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B45318E1EB3B8BD0069495E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B45319D1EB3B8BD0069495E /* ViewController.m in Sources */,
+				8B45319A1EB3B8BD0069495E /* AppDelegate.m in Sources */,
+				8B4531971EB3B8BD0069495E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4531A71EB3B8BE0069495E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4531B01EB3B8BE0069495E /* PushyApp_iOS10Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4531B21EB3B8BE0069495E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4531BB1EB3B8BE0069495E /* PushyApp_iOS10UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B4531AD1EB3B8BE0069495E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B4531911EB3B8BD0069495E /* PushyApp_iOS10 */;
+			targetProxy = 8B4531AC1EB3B8BE0069495E /* PBXContainerItemProxy */;
+		};
+		8B4531B81EB3B8BE0069495E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B4531911EB3B8BD0069495E /* PushyApp_iOS10 */;
+			targetProxy = 8B4531B71EB3B8BE0069495E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B45319E1EB3B8BD0069495E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B45319F1EB3B8BD0069495E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B4531A31EB3B8BD0069495E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B4531A41EB3B8BD0069495E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B4531BD1EB3B8BE0069495E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B4531BE1EB3B8BE0069495E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B4531C01EB3B8BE0069495E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PushyApp_iOS10/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coursera.networking-and-security.PushyApp-iOS10";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B4531C11EB3B8BE0069495E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PushyApp_iOS10/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coursera.networking-and-security.PushyApp-iOS10";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B4531C31EB3B8BE0069495E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PushyApp_iOS10Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coursera.networking-and-security.PushyApp-iOS10Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PushyApp_iOS10.app/PushyApp_iOS10";
+			};
+			name = Debug;
+		};
+		8B4531C41EB3B8BE0069495E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PushyApp_iOS10Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coursera.networking-and-security.PushyApp-iOS10Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PushyApp_iOS10.app/PushyApp_iOS10";
+			};
+			name = Release;
+		};
+		8B4531C61EB3B8BE0069495E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PushyApp_iOS10UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coursera.networking-and-security.PushyApp-iOS10UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PushyApp_iOS10;
+			};
+			name = Debug;
+		};
+		8B4531C71EB3B8BE0069495E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PushyApp_iOS10UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coursera.networking-and-security.PushyApp-iOS10UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PushyApp_iOS10;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B45318D1EB3B8BD0069495E /* Build configuration list for PBXProject "PushyApp_iOS10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4531BD1EB3B8BE0069495E /* Debug */,
+				8B4531BE1EB3B8BE0069495E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B4531BF1EB3B8BE0069495E /* Build configuration list for PBXNativeTarget "PushyApp_iOS10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4531C01EB3B8BE0069495E /* Debug */,
+				8B4531C11EB3B8BE0069495E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B4531C21EB3B8BE0069495E /* Build configuration list for PBXNativeTarget "PushyApp_iOS10Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4531C31EB3B8BE0069495E /* Debug */,
+				8B4531C41EB3B8BE0069495E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B4531C51EB3B8BE0069495E /* Build configuration list for PBXNativeTarget "PushyApp_iOS10UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4531C61EB3B8BE0069495E /* Debug */,
+				8B4531C71EB3B8BE0069495E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B45318A1EB3B8BD0069495E /* Project object */;
+}
